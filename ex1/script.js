@@ -13,7 +13,10 @@ function carregar(ex) {
         img.src = 'imagens/noite.jpg';
         document.body.style.background = '#200093';
     };
+    footer(ex)
+}
 
+function footer(ex) {
     var proxex = ex + 1;
     var antex = ex - 1;
     var next = document.querySelector('#next');
