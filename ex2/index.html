@@ -8,14 +8,27 @@
 </head>
 <body onload="carregar(2)">
     <header>
-        <h1>Título</h1>
+        <h1>Verificador de idade</h1>
     </header>
     <section>
         <div>
-            modelo
+            <p>
+                <label for="data">Digite o ano de nascimento</label>
+                    <input id="data" type="number" min="1900" max="">
+            </p>
+            <p>
+                <label for="sexo">Selecione o seu genero</label>
+                    <select id="sexo">
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                    </select>
+            </p>
+            <p>
+                <button id="Verificador" onclick="verificar()">Verificar</button>
+            </p>
         </div>
-        <div>
-            para os exercícios
+        <div id="res">
+            <p id="resultado">Preencha o formulário e clique em verificar</p>
         </div>
     </section>
     <footer>
