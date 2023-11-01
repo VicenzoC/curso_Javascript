@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="carregar(3)">
+    <header>
+        <h1>Contar números</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                <label for="inicio">Ínicio:</label>
+                    <input id="inicio" type="number" placeholder="0">
+            </p>
+            <p>
+                <label for="fim">Fim:</label>
+                    <input id="fim" type="number" min="-999" max="999" placeholder="10">
+            </p>
+            <p>
+                <label for="passo">Passo:</label>
+                    <input id="passo" type="number" placeholder="1">
+            </p>
+            <p>
+                <button onclick="contar()">Contar</button>
+                
+                <button onclick="limpar()">Limpar resultados</button>
+            </p>
+        </div>
+        <div id="resultado">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Vicenzo Cavallaro</p>
+        <a id="previous" href="">Anterior</a>
+        <a id="next" href="">Próximo</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
