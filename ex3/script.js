@@ -9,7 +9,7 @@ function footer(ex) {
     var previous = document.getElementById('previous')
     next.href = `../ex${proxex}/index.html`
     if (antex >= 1) {
-        previous.href = `../ex${proxex}/index.html`
+        previous.href = `../ex${antex}/index.html`
     } else {
         previous.style.display = 'none'
     }
@@ -21,11 +21,17 @@ function contar() {
     var pas = parseInt(document.querySelector('input#passo').value)
     var res = document.createElement('p')
     var resultado = document.querySelector('div#resultado')
-    if (ini.length == 0 || fim.length == 0 || pas.length == 0 || pas == 0 || ini > fim){
+    if (ini.length == 0 || fim.length == 0 || pas.length == 0 || pas == 0){
         res.innerText = 'Dados inválidos, tente novamente!'
     } else {
-        for(x = ini; x <= fim; x += pas){
-            res.append(`${x} -> `)
+        if(ini<fim){
+            for(x = ini; x <= fim; x += pas){
+                res.append(`${x} -> `)
+            }
+        } else {
+            for(x = ini; x >= fim; x -= pas){
+                res.append(`${x} -> `)
+            }
         }
         res.append('FIM!')
     }

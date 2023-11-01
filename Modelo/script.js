@@ -9,7 +9,7 @@ function footer(ex) {
     var previous = document.getElementById('previous')
     next.href = `../ex${proxex}/index.html`
     if (antex >= 1) {
-        previous.href = `../ex${proxex}/index.html`
+        previous.href = `../ex${antex}/index.html`
     } else {
         previous.style.display = 'none'
     }
