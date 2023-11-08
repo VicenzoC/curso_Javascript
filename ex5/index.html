@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="carregar(5)">
+    <header>
+        <h1>Analisar números</h1>
+    </header>
+    <section>
+        <div>
+            <label for="numero">Adicione um número de 1 até 100</label>
+                <input id='numero' type="number">
+            <button onclick="adiciona()">Adicionar</button>
+        </div>
+        <div id="lista"></div>
+        <div id="resultado"></div>
+        <button onclick="resultado()">Resultado</button>
+    </section>
+    <footer>
+        <p>&copy; Vicenzo Cavallaro</p>
+        <a id="previous" href="">Anterior</a>
+        <a id="next" href="">Próximo</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
