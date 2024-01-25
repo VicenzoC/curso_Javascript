@@ -12,7 +12,7 @@ class User {
     }
 }
 
-const Vicenzo = new User('Vicenzo', 'vicenzo@email.com', '14/03/2004')
+const Vicenzo = new User('Vicenzo', 'vicenzo@email.com', '14/03/2004');
 
 console.log(Vicenzo);
-console.log(Vicenzo.exibirInfos())
+console.log(Vicenzo.exibirInfos());

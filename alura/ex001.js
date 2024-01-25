@@ -54,4 +54,3 @@ console.log(mediaAluno(notasAna))
 console.log(situacao('ana'))
 console.log(situacao('ana') === 'Recuperação'? recuperacao('AnA', 7): situacao('ana')) //operador ternario
 console.log(materiasMaiusculas)
-

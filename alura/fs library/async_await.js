@@ -12,4 +12,4 @@ async function pegaArquivo (dir){
     }
 }
 
-pegaArquivo('./texto.txt')
+pegaArquivo('./texto.txt');
