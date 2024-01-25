@@ -1,0 +1,39 @@
+# Meu Texto com Links
+
+Neste texto, vou mostrar como adicionar links utilizando a sintaxe do Markdown.
+
+## Links Simples
+
+Para adicionar um link simples, utilizamos a seguinte sintaxe:
+
+[Texto do Link](https://regex101.com/)
+
+Por exemplo, podemos adicionar um link para o site da [Alura](https://www.alura.com.br).
+
+## Links com Título
+
+Também é possível adicionar um título ao link, que é exibido quando o usuário passa o mouse sobre o link. Para isso, utilizamos a seguinte sintaxe:
+
+[Texto do Link](https://regex101.com/)
+
+Por exemplo, podemos adicionar um link para o site da [Alura](https://www.alura.com.br "Acesse a Alura").
+
+## Links para Seções Internas
+
+Em um documento longo, é comum utilizar links para seções internas, permitindo que o usuário navegue rapidamente para uma parte específica do texto. Para isso, utilizamos a seguinte sintaxe:
+
+[Texto do Link](#nome-da-seção)
+
+Por exemplo, podemos adicionar um link para a seção "Links Simples" deste texto:
+
+[Veja os Links Simples](#links-simples)
+
+## Links para Arquivos
+
+Além de links para sites, também é possível adicionar links para arquivos. Para isso, utilizamos a mesma sintaxe de links simples, mas informando o caminho do arquivo no lugar da URL.
+
+[Texto do Link](caminho/do/arquivo.extensão)
+
+Por exemplo, podemos adicionar um link para um arquivo chamado "documento.pdf":
+
+[Acesse o Documento](caminho/do/documento.pdf)
